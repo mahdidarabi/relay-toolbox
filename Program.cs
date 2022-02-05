@@ -11,6 +11,8 @@ try
     var values = new List<bool>() { true, true, false, true };
     var result = relayUtility.SetPinsValues(values);
     System.Console.WriteLine(result.ToString());
+    Thread.Sleep(1_000);
+    relayUtility.ResetPins();
 }
 catch (System.Exception)
 {
