@@ -5,7 +5,7 @@ namespace Relay.Utilities;
 class RelayUtility
 {
 
-    //this values are in BCM mode   25, 27, 27, 22
+    //this values are in BCM mode   25, 17, 27, 22
     //in Board mode those are       22, 11, 13, 15
     private List<int> _reservedPins = new List<int>() { 25, 17, 27, 22 };
     private List<int> _pins { get; set; }
